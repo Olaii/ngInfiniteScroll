@@ -1,4 +1,4 @@
-/* @olaii/ng-infinite-scroll - v1.3.0 - 2022-12-13 */
+/* @olaii/ng-infinite-scroll - v1.3.1 - 2022-12-13 */
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', 'angular'], factory);

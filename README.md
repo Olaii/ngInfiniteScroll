@@ -19,7 +19,7 @@ ngInfinite Scroll follows [semantic versioning](http://semver.org/).
 ## Getting Started
 
 - Install it with:
-  - [npm](https://www.npmjs.com) via `npm install --save ng-infinite-scroll`
+  - [npm](https://www.npmjs.com) via `npm install --save @olaii/ng-infinite-scroll`
 - Import ng-infinite-scroll and angular.
 
   ```js
