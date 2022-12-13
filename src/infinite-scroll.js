@@ -175,7 +175,10 @@ angular.module(MODULE_NAME, [])
         }
       }
 
-      scope.$watch('infiniteScrollDisabled', handleInfiniteScrollDisabled);
+      scope.$watch('infiniteScrollDisabled', e => {
+        if (e) { checkWhenEnabled = true; }
+        handleInfiniteScrollDisabled(e);
+      });
       // If I don't explicitly call the handler here, tests fail. Don't know why yet.
       handleInfiniteScrollDisabled(scope.infiniteScrollDisabled);
 
